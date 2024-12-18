@@ -1,17 +1,8 @@
 numpy>=1.21.0
 streamlit==1.14.0
-<<<<<<< HEAD
 plotly>=5.0.0  # Update to a newer version
 seaborn>=0.11.0  # Update to a newer version
 pandas_profiling>=3.1.0  # Update to a compatible version
 pandas>=1.3.0  # Ensure a compatible pandas version
 matplotlib>=3.4.0  # Ensure compatibility
 scikit_learn>=0.24.1
-=======
-plotly==4.0.0
-seaborn==0.10.1
-pandas_profiling==2.3.0
-pandas==1.0.5
-matplotlib==3.3.0
-scikit_learn==0.24.1
->>>>>>> 06375af3fa5cb1595833294924d0460b5da9426f
