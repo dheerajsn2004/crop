@@ -48,12 +48,12 @@ sns.set_style("whitegrid", {'axes.grid' : False})
 pio.templates.default = "plotly_white"
 
 # Analyze Data
-def explore_data(df):
-    print("Number of Instances and Attributes:", df.shape)
-    print('\n')
-    print('Dataset columns:',df.columns)
-    print('\n')
-    print('Data types of each columns: ', df.info())
+# def explore_data(df):
+#     print("Number of Instances and Attributes:", df.shape)
+#     print('\n')
+#     print('Dataset columns:',df.columns)
+#     print('\n')
+#     print('Data types of each columns: ', df.info())
 
 # Checking for Duplicates
 def checking_removing_duplicates(df):
