@@ -53,13 +53,13 @@ def main():
     </style>
     """
 
-hide_menu_style = """
-        <style>
-        .block-container {padding: 2rem 1rem 3rem;}
-        #MainMenu {visibility: hidden;}
-        </style>
-        """
-st.markdown(hide_menu_style, unsafe_allow_html=True)
+# hide_menu_style = """
+#         <style>
+#         .block-container {padding: 2rem 1rem 3rem;}
+#         #MainMenu {visibility: hidden;}
+#         </style>
+#         """
+# st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 if __name__ == '__main__':
 	main()
